@@ -307,4 +307,6 @@ function s:LoadPath()
     autocmd FileType java setlocal path=,,.,**/src/**/java
 endfunction
 
+set number
+
 call s:Main()

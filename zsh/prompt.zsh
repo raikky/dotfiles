@@ -2,6 +2,8 @@
 # https://github.com/sindresorhus/pure
 # MIT License
 
+eval `dircolors ~/.dir_colors`
+alias ls="ls --color=auto"
 
 # Change this to your own username
 DEFAULT_USERNAME=$(ls -l $0 | awk '{ print $3 }')
